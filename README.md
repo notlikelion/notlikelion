@@ -1,39 +1,86 @@
+<!-- https://www.markdownguide.org/cheat-sheet/ -->
+<!-- cmd + /, ctrl + / : 주석 -> 인식이 안되는 글 -->
+
+<!-- headline 또는 heading -->
+# 제목1
+## 제목2
+### 제목3 
+<!-- 일반적으로 velog, notion 3까지 지원... -->
+#### 제목4
+##### 제목5
+###### 제목6
+
+<!-- bold 굵게 -->
+**굵게**
+__굵게__
+<!-- enter 1개는 무시된다 -->
+
+엔터
+엔터
+
+엔터엔터
+
+엔터엔터
+
+엔터  
+엔터
+<!-- 스페이스 2개가 있으면 줄바꿈 인정 -->
+
+<!-- italic 기울게 -->
+*기울게*
+_기울게_
+
+> 인용
+> > 인용
+> > > 인용
+> > > > 인용
+
+* 말머리표
+* 말머리표
+    * 들여쓰기...
+        * 들여쓰기...
+
+1. 숫자로 표현
+2. 숫자를 이어서 하는데
+1. 맨 앞에 숫자에 이어서 진행합니다
+10. 커지든 작아지든
+    1. 새로운 숫자 
+    <!-- 들여쓰기의 경우에는 1로만 시작 가능 -->
+
+`한 줄 코드`
+```
+여러줄 코드
+```
+
+```
+import java.util.*;
+System.out.println("Hello World");
+```
+
+<!-- 컬러셋 차이 -->
+```java
+import java.util.*;
+System.out.println("Hello World");
+```
+
+<!-- 가로 구분선 -->
 ---
-# ☁️ 안녕하세요, 클라우드 엔지니어링 전문가를 꿈꾸는 **박사자**입니다!
 
----
+[네이버](https://naver.com)  
+[구글](https://google.com)  
+[이름](주소)
 
-## 🚀 목표
+![이미지](https://plus.unsplash.com/premium_photo-1752521132303-15829446682e?q=80&w=1315&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+![이미지 설명](주소)
 
-클라우드 기술을 활용해 **안정적이고 효율적인 시스템을 구축**하는 데 기여하고 싶어요. 특히 **AWS**와 **Kubernetes**에 깊은 관심을 가지고 있으며, CI/CD 자동화 및 DevOps 문화 정착에 힘쓰는 것을 목표로 합니다.
+<!-- ==하이라이트== -->
+<mark>하이라이트</mark>
 
----
+~~취소선~~
 
-## 🌱 현재 학습 중인 기술 스택
+- [ ] 체크박스
+- [x] 체크박스
 
-* **클라우드 플랫폼:** AWS (EC2, S3, VPC, IAM, RDS 등)
-* **컨테이너 및 오케스트레이션:** Docker, Kubernetes
-* **스크립팅 및 자동화:** Python, Bash
-* **CI/CD 도구:** Jenkins, GitHub Actions
-* **버전 관리:** Git, GitHub
-* **운영체제:** Linux
-
----
-
-## 🛠️ 프로젝트 경험 (또는 관심 분야)
-
-* **개인 클라우드 환경 구축:** AWS EC2 인스턴스를 활용한 웹 서버 구축 및 관리
-* **Docker 기반 애플리케이션 배포:** Dockerfile 작성 및 이미지 빌드, 컨테이너 실행 경험
-* **Kubernetes 학습:** minikube를 활용한 Pod, Deployment, Service 이해 및 실습
-* **CI/CD 파이프라인 구성:** GitHub Actions를 이용한 간단한 자동 배포 파이프라인 구현
-
----
-
-## 📞 저에게 연락하려면
-
-* **Email:** your-email@example.com (여기에 본인의 이메일 주소를 넣어주세요)
-* **LinkedIn:** [https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/your-profile) (여기에 본인의 링크드인 프로필 링크를 넣어주세요)
-
----
-
-꾸준히 배우고 성장하며 최고의 클라우드 엔지니어가 되기 위해 노력하겠습니다! 감사합니다! 🚀
+|자바좋아요|AWS좋아요오오오|좋다아아아아아아아아아|
+|:------|-----------:|:---------------:|
+|내용    |내용         |내용
